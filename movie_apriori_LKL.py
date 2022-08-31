@@ -2,7 +2,7 @@
 import csv
 from efficient_apriori import apriori
 
-file_path = u'E:\工作\数据分析\课程项目\关联规则挖掘\宁浩.csv'
+file_path = '宁浩.csv'
 ori_data = csv.reader(open(file_path, 'r', encoding='utf-8-sig'))
 
 data = []

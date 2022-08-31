@@ -8,7 +8,7 @@ import csv
 
 options = webdriver.ChromeOptions()
 options.add_argument("--incognito")  # 隐身模式打开
-driver_path = "E:\工作\数据分析\课程项目/chromedriver.exe"  # chromedriver.exe 的路径
+driver_path = "chromedriver.exe"  # chromedriver.exe 的路径
 
 driver = webdriver.Chrome(executable_path=driver_path, options=options)
 # 设置想要下载的导演 数据集
